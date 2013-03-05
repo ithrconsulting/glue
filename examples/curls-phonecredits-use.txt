@@ -1,0 +1,5 @@
+
+curl -v -X POST http://localhost:8080/backend/api/phonecredits/1/commit ; echo ;
+
+curl -v -X POST http://localhost:8080/backend/api/phonecredits/3/commit ; echo ;
+

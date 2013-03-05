@@ -1,0 +1,22 @@
+/buyers/                            GET/POST
+/buyers/{id}                        GET/POST/DELETE
+/buyers/{id}/rating/decrease        POST
+/buyers/{id}/rating/increase        POST
+
+
+/couriers/                          GET/POST
+/couriers/{id}                      GET/POST/DELETE
+/couriers/{id}/rating/decrease      POST
+/couriers/{id}/rating/increase      POST
+
+
+/transactions/                      GET/POST
+/transactions/{id}                  GET/POST/DELETE
+/transactions/{id}/failure          POST
+/transactions/{id}/notify           POST
+/transactions/{id}/ship             POST
+/transactions/{id}/success          POST
+
+/phonecredits/                      GET/POST
+/phonecredits/{id}                  GET/DELETE
+/phonecredits/{id}/commit           POST

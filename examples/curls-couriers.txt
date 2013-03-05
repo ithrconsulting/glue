@@ -1,0 +1,9 @@
+
+curl -v -X POST -d "data={'id'='c-jc','name':'Jim Courier','msisdn':'0','address':{'street1':'InsideOut Sport %26 Entertainment','street2':'401 Lafayette, Suite 600','city':'New York','postcode':'NY 10003','country':'USA'}}" http://localhost:8080/backend/api/couriers/ ; echo ;
+
+curl -v -X POST -d "data={'id'='c-jdm','name':'Jeffrey Dean Morgan','msisdn':'1','address':{'street1':'Precision Entertainment','street2':'6338 Wilshire Blvd.','city':'Los Angeles','postcode':'CA 90048','country':'USA'}}" http://localhost:8080/backend/api/couriers/ ; echo ;
+
+curl -v -X POST -d "data={'id'='c-jgl','name':'Joseph Gordon-Levitt','msisdn':'2','address':{'street1':'William Morris Endeavor Entertainment','street2':'9601 Wilshire Blvd., 3rd Floor','city':'','postcode':'CA 90210-5213','country':'USA'}}" http://localhost:8080/backend/api/couriers/ ; echo ;
+
+curl -v -X POST -d "data={'id'='c-js','name':'Jason Statham','msisdn':'3','address':{'street1':'Sunshine, Sachs %26 Associates, Llc','street2':'8409 Santa Monica Blvd','city':'Los Angeles','postcode':'CA 90069','country':'USA'}}" http://localhost:8080/backend/api/couriers/ ; echo ;
+

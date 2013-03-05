@@ -1,0 +1,13 @@
+
+curl -v -X POST http://localhost:8080/backend/api/buyers/b-a/rating/increase ; echo ;
+
+curl -v -X POST http://localhost:8080/backend/api/buyers/b-b/rating/increase ; echo ;
+
+curl -v -X POST http://localhost:8080/backend/api/buyers/b-h/rating/increase ; echo ;
+
+curl -v -X POST http://localhost:8080/backend/api/buyers/b-l/rating/increase ; echo ;
+
+curl -v -X POST http://localhost:8080/backend/api/buyers/b-m/rating/increase ; echo ;
+
+curl -v -X POST http://localhost:8080/backend/api/buyers/b-r/rating/increase ; echo ;
+

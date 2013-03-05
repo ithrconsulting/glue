@@ -1,0 +1,7 @@
+
+curl -v -X POST http://localhost:8080/backend/api/phonecredits/ --data "msisdn=3&amount=10" ; echo ;
+
+curl -v -X POST http://localhost:8080/backend/api/phonecredits/ --data "msisdn=4&amount=20" ; echo ;
+
+curl -v -X POST http://localhost:8080/backend/api/phonecredits/ --data "msisdn=5&amount=30" ; echo ;
+

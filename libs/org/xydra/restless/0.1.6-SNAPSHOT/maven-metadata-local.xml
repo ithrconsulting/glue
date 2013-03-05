@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.xydra</groupId>
+  <artifactId>restless</artifactId>
+  <version>0.1.6-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <lastUpdated>20121210122310</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,1 @@
+document.write('<iframe width=\"160\" height=\"600\" scrolling=\"no\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\"\n\n src=\"//aax-eu.amazon-adsystem.com/x/getadi?src=501&c=100&u=http%3A%2F%2Fwww.amazon.co.uk%2F&sz=160x600&pt=Search&slot=auto-left-advertising-1\"></iframe>');

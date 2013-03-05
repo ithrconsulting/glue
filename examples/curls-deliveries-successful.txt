@@ -1,0 +1,13 @@
+
+curl -v -X POST http://localhost:8080/backend/api/transactions/1/success ; echo ;
+
+curl -v -X POST http://localhost:8080/backend/api/transactions/2/success --data "paymentType=cash" ; echo ;
+
+curl -v -X POST http://localhost:8080/backend/api/transactions/3/success --data "paymentType=cash" ; echo ;
+
+curl -v -X POST http://localhost:8080/backend/api/transactions/4/success --data "paymentType=phone" ; echo ;
+
+curl -v -X POST http://localhost:8080/backend/api/transactions/5/success --data "paymentType=cash" ; echo ;
+
+curl -v -X POST http://localhost:8080/backend/api/transactions/6/success --data "paymentType=phone" ; echo ;
+

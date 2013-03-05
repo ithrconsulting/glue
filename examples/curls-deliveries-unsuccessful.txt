@@ -1,0 +1,13 @@
+
+curl -v -X POST http://localhost:8080/backend/api/transactions/1/failure ; echo ;
+
+curl -v -X POST http://localhost:8080/backend/api/transactions/2/failure ; echo ;
+
+curl -v -X POST http://localhost:8080/backend/api/transactions/3/failure ; echo ;
+
+curl -v -X POST http://localhost:8080/backend/api/transactions/4/failure ; echo ;
+
+curl -v -X POST http://localhost:8080/backend/api/transactions/5/failure ; echo ;
+
+curl -v -X POST http://localhost:8080/backend/api/transactions/6/failure ; echo ;
+

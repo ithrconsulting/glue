@@ -1,0 +1,13 @@
+
+curl -v -X POST http://localhost:8080/backend/api/transactions/ --data "data={'buyer':{'id':'b-l','name':'Mr. London','msisdn':'0','address':{'street1':'City Hall','street2':'The Queen\'s Walk, More London','city':'London','postcode':'SE1 2AA','country':'England'}},'seller':{'name':'Amazon.co.uk'},'product':{'name':'Union Jack Bar Stool','price':'50.20'},'paymentType'='cash'}" ; echo ;
+
+curl -v -X POST http://localhost:8080/backend/api/transactions/ --data "data={'buyer':{'id':'b-h','name':'Mr. Helsinki','msisdn':'1','address':{'street1':'Pohjoisesplanadi 11-13','street2':'','city':'Helsinki','postcode':'FI-00099','country':'Finland'}},'seller':{'name':'Anttila'},'product':{'name':'Sukat','price':'10.01'},'paymentType'='cash'}" ; echo ;
+
+curl -v -X POST http://localhost:8080/backend/api/transactions/ --data "data={'buyer':{'id':'b-b','name':'Mr. Berlin','msisdn':'2','address':{'street1':'Rathausstrasse 15','street2':'','city':'Berlin','postcode':'10178','country':'Germany'}},'seller':{'name':'GALERIA Kaufhof'},'product':{'name':'Besteck Silence 68-teilig','price':'99.10'},'paymentType'='cash'}" ; echo ;
+
+curl -v -X POST http://localhost:8080/backend/api/transactions/ --data "data={'buyer':{'id':'b-a','name':'Mr. Athens','msisdn':'3','address':{'street1':'63A Athinas St','street2':'Kotzia Square','city':'Athens','postcode':'10552','country':'Greece'}},'seller':{'name':'Everest'},'product':{'name':'Club Sandwich','price':'5.99'},'paymentType'='phone',paymentId='1'}" ; echo ;
+
+curl -v -X POST http://localhost:8080/backend/api/transactions/ --data "data={'buyer':{'id':'b-r','name':'Mr. Rome','msisdn':'4','address':{'street1':'Via del Campidoglio, 1','street2':'','city':'Rome','postcode':'00100','country':'Italy'}},'seller':{'name':'Armani'},'product':{'name':'Satchel','price':'1625.50'},'paymentType'='phone',paymentId='2'}" ; echo ;
+
+curl -v -X POST http://localhost:8080/backend/api/transactions/ --data "data={'buyer':{'id':'b-m','name':'Mr. Madrid','msisdn':'5','address':{'street1':'Plaza de Cibeles','street2':'','city':'Madrid','postcode':'28014','country':'Spain'}},'seller':{'name':'Desigual'},'product':{'name':'Habana','price':'44.33'},'paymentType'='phone',paymentId='3'}" ; echo ;
+

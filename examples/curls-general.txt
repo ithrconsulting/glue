@@ -1,0 +1,53 @@
+====================================================================================================
+
+SMS NOTIFICATION
+----------------
+
+Send real SMS:
+
+curl -v -X POST -H "STUFF-SEND-SMS: foo" http://localhost:8080/backend/api/transactions/1/notify ; echo ;
+
+
+Do not send real SMS:
+
+curl -v -X POST http://localhost:8080/backend/api/transactions/1/notify ; echo ;
+
+====================================================================================================
+
+TRANSACTIONS RETRIEVAL
+----------------------
+
+curl http://localhost:8080/backend/api/transactions ; echo ;
+curl http://localhost:8080/backend/api/transactions?status=all ; echo ;
+curl http://localhost:8080/backend/api/transactions?status=open ; echo ;
+curl http://localhost:8080/backend/api/transactions?status=new ; echo ;
+curl http://localhost:8080/backend/api/transactions?status=inprogress ; echo ;
+curl http://localhost:8080/backend/api/transactions?status=success ; echo ;
+curl http://localhost:8080/backend/api/transactions?status=failure ; echo ;
+
+====================================================================================================
+
+BUYERS RETRIEVAL
+----------------
+
+curl http://localhost:8080/backend/api/buyers ; echo ;
+
+====================================================================================================
+
+COURIERS RETRIEVAL
+------------------
+
+curl http://localhost:8080/backend/api/couriers ; echo ;
+
+====================================================================================================
+
+PHONE CREDITS RETRIEVAL
+-----------------------
+
+curl http://localhost:8080/backend/api/phonecredits ; echo ;
+curl http://localhost:8080/backend/api/phonecredits?status=all ; echo ;
+curl http://localhost:8080/backend/api/phonecredits?status=used ; echo ;
+curl http://localhost:8080/backend/api/phonecredits?status=unused ; echo ;
+
+====================================================================================================
+

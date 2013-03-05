@@ -1,0 +1,13 @@
+
+curl -v -X POST http://localhost:8080/backend/api/transactions/1/ship --data "courierId=c-jc&packageQRC=1-PACKAGE" ; echo ;
+
+curl -v -X POST http://localhost:8080/backend/api/transactions/2/ship --data "courierId=c-jdm&packageQRC=2-PACKAGE" ; echo ;
+
+curl -v -X POST http://localhost:8080/backend/api/transactions/3/ship --data "courierId=c-jgl&packageQRC=3-PACKAGE" ; echo ;
+
+curl -v -X POST http://localhost:8080/backend/api/transactions/4/ship --data "courierId=c-js&packageQRC=4-PACKAGE" ; echo ;
+
+curl -v -X POST http://localhost:8080/backend/api/transactions/5/ship --data "courierId=c-jdm&packageQRC=5-PACKAGE" ; echo ;
+
+curl -v -X POST http://localhost:8080/backend/api/transactions/6/ship --data "courierId=c-js&packageQRC=6-PACKAGE" ; echo ;
+

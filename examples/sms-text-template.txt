@@ -1,0 +1,9 @@
+Your ${SELLER_NAME} order of "${PRODUCT_NAME}" has been dispatched.
+
+Your PIN is ${BUYER_PIN}
+
+${QR_CODE_ENDPOINT}
+
+OR
+
+http://your.qrcode.servlet/path?qr=${BUYER_QR_CODE}

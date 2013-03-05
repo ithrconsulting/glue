@@ -1,0 +1,28 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Stuff Poc</display-name>
+	<servlet>
+		<servlet-name>MainServlet</servlet-name>
+		<servlet-class>com.ithrconsulting.sp.MainServlet</servlet-class>
+		<init-param>
+			<param-name>loggerFactory</param-name>
+			<param-value>org.xydra.log.DefaultLoggerFactorySPI</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet>
+		<servlet-name>QRCodeServlet</servlet-name>
+		<servlet-class>opt.ithrconsulting.qrcodes.QRCodeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MainServlet</servlet-name>
+		<url-pattern>/api/*</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>QRCodeServlet</servlet-name>
+		<url-pattern>/opt/qrcode</url-pattern>
+	</servlet-mapping>
+</web-app>
